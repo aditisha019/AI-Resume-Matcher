@@ -1,6 +1,7 @@
 # AI-Resume-Matcher
 An AI-powered tool to analyze resume-job description fit, built for recruiters and job seekers to optimize hiring and career success.
-📌 Project Description
+
+# Project Description
 AI Resume Matcher is a full-stack application that evaluates how well a candidate's resume matches a given job description using advanced semantic similarity models and GPT-based resume suggestions.
 
 This project targets real-world challenges faced during job applications:
@@ -21,7 +22,7 @@ With an intuitive UI and powerful AI backend, this app delivers:
 
 Built with a modern tech stack and optimized for high-performance AI processing, this project reflects months of effort in AI development, full-stack integration, and real problem-solving.
 
-💡 Key Features
+# Key Features
 Feature	Description
 📄 Resume & JD Upload	Paste or upload resumes and job descriptions
 🧠 Semantic Similarity	Uses MiniLM transformer to evaluate text embeddings
@@ -32,8 +33,8 @@ Feature	Description
 🚀 FastAPI Backend	Python-based REST API handling NLP & GPT tasks
 📦 GitHub + Colab	Modular, cloud-friendly dev structure
 
-🔧 Tech Stack
-⚙️ Backend:
+# Tech Stack
+# Backend:
 FastAPI – Lightweight, async Python web framework
 
 SentenceTransformers – For NLP matching (all-MiniLM-L6-v2)
@@ -42,14 +43,14 @@ OpenAI GPT-3.5 API – For intelligent resume suggestions
 
 Uvicorn – ASGI server for FastAPI
 
-🎨 Frontend:
+# Frontend:
 React.js – Component-based frontend
 
 Tailwind CSS – Utility-first styling for clean design
 
 Axios – API communication
 
-☁️ Dev & Deployment:
+# Dev & Deployment:
 Google Colab – Prototyping & testing ML components
 
 GitHub – Code versioning
@@ -58,7 +59,7 @@ Render/Vercel – (Planned) Deployment targets
 
 Docker (planned) – Containerization of backend
 
-🚀 Project Workflow
+# Project Workflow
 User uploads resume and job description
 
 NLP module calculates semantic similarity and match score
@@ -73,7 +74,7 @@ Highlighted missing keywords
 
 Actionable GPT-enhanced tips
 
-📁 Project Structure
+# Project Structure
 css
 Copy
 Edit
@@ -87,7 +88,8 @@ AI-Resume-Matcher/
 ├── colab/
 │   └── resume_matcher_demo.ipynb ← Prototyping in Colab
 ├── README.md
-🧪 How to Use (Prototype Phase)
+
+# How to Use (Prototype Phase)
 ✅ Open Colab notebook: colab/resume_matcher_demo.ipynb
 
 📝 Paste sample resume and job description
@@ -98,14 +100,14 @@ AI-Resume-Matcher/
 
 🌐 Connect frontend to backend using React + Axios
 
-🎯 Use Cases
+# Use Cases
 User	Goal
 🎓 Student	Improve resume for a specific job/internship
 🧑‍💼 Job Seeker	Check how well your resume matches a posting
 🧑‍💻 Recruiter	Compare multiple resumes against a JD automatically
 📈 Career Coach	Generate smart bullet points using GPT
 
-🧠 What I Learned
+# What I Learned
 How to use Sentence Transformers for real-world NLP tasks
 
 How to build GPT-augmented tools for natural language generation
@@ -116,14 +118,4 @@ Handling frontend–backend integration
 
 Thinking from the POV of both users and recruiters
 
-📚 Future Work
-✅ Deploy full FastAPI backend (Render/Docker)
-
-✅ Complete React frontend and host it (Vercel)
-
-⏳ Add authentication for saved results
-
-⏳ Support PDF parsing (via PyMuPDF or PDFPlumber)
-
-⏳ Build batch resume analyzer for recruiters
 
